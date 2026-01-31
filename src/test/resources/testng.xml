@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Orangesuite" parallel="methods" thread-count="5">
+<listeners>
+		<listener class-name="com.testngproject.listener.TestngListener"></listener>
+	</listeners>
+	<test name="PracticeTests">
+		<classes>
+			<class name="com.testngproject.Test.LoginTest"></class>
+            <class name="com.testngproject.Test.HomePageTest"></class>
+
+		</classes>
+
+
+	</test>
+
+
+</suite>

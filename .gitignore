@@ -1,0 +1,19 @@
+# Ignore build and dependency files
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore IDE-specific files
+.idea/
+.settings/
+.project
+.classpath
+*.iml
+*.iws
+
+# Ignore temporary logs and reports
+/test-output/
+/temp-screenshot/
+*.log
