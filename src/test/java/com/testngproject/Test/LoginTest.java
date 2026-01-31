@@ -47,7 +47,7 @@ public class LoginTest extends TestngpracticeBase {
 	//	System.out.println("DEBUG: Thread " + threadId + " created Loginpage object: " + loginpage.hashCode());
 	//	System.out.println("DEBUG: Thread " + threadId + " created Homepage object: " + homepage.hashCode());
 	    getPage().getLoginPage().login(username,password);
-	    Assert.assertTrue(getPage().getHomePage().admintabvisble(), "Admin tab is not visibble..");
+	    Assert.assertTrue(getPage().getHomePage().admintabvisble(), "Admin tab is not visibble");
 		ExtentManager.logsucceswithscreenshot(getwebdriver(),"User logged in successfully","valid login test");
 		getPage().getHomePage().logout();
 	}
