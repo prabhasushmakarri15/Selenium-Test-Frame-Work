@@ -17,3 +17,7 @@
 /test-output/
 /temp-screenshot/
 *.log
+/src/test/resources/screenshots/
+/src/test/resources/extentreport/
+*.png
+*.html
