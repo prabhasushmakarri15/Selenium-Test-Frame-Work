@@ -43,6 +43,7 @@ public class LoginTest extends TestngpracticeBase {
 		long threadId = Thread.currentThread().getId();
 		//ExtentManager.starttest("valid Login");
 		WebDriver currentDriver = getwebdriver();
+		System.out.println("Testing Poll SCM");
 	    System.out.println("DEBUG: Thread inside valid login" + threadId + " initialized Driver: " + currentDriver.hashCode());
 	//	System.out.println("DEBUG: Thread " + threadId + " created Loginpage object: " + loginpage.hashCode());
 	//	System.out.println("DEBUG: Thread " + threadId + " created Homepage object: " + homepage.hashCode());
